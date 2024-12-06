@@ -1,0 +1,34 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+	background-color: #F0F0C9;
+	padding: 1rem;
+}
+
+.site-header nav { 
+   
+	 width:30%;
+	background-color: #f8f8d3;
+	padding: .5rem;
+}
+
+.site-header nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.site-header nav li {
+	display: inline-block;
+	margin-left: .75rem;
+} 
+
+.site-header a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: #087F8C;
+	text-decoration: none;
+}
