@@ -1,0 +1,83 @@
+/*RESET*/
+*{margin:0;padding: 0;box-sizing: border-box;}
+/*FLEX*/
+html{
+    margin: 40px;
+    background:#eee;
+}
+body{
+    margin:auto;
+    font-family:Courier;
+    font-weight: bold;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 86%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+/* Links */
+nav a,nav a:visited{
+    color: #777;
+    text-decoration: none;
+    margin-left: 18px;
+}
+nav a:hover{
+    color: red;
+}
+/*contact*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding:50px;
+    }
+    input{
+        display:block;
+        margin-bottom: 12px;
+    }
+    /* .siderbar{
+        flex-grow: 2; 
+        justify-content:center;
+        padding:18px;}*/
+        
+     .sidebar,.map{
+     justify-content: center;
+     padding: 0;
+     margin-bottom: 20px;
+     }
+    .maptext{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    
+    
+    .map{
+        flex-grow: 4;
+        justify-content: center;
+        padding-right: 60px;
+    }
+    .mapper{
+        width: 100%;
+        display: block;
+    }
+    .mapper iframe{  width: 90%;
+        min-width: 400px;
+        height: 380px;
+        display: block;
+    
+    }
+    
+    
+    footer{
+        width: 100%;
+        text-align: center;
+        padding: 18px;
+    }
+    .footertext{
+        color: #777;
+        font-size: 14px;
+    }  
