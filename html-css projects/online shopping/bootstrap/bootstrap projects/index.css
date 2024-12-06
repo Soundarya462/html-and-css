@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    background-color: #383529;
+    margin-top: 30px;
+}
+body{
+    margin: auto;
+    background-color: #b2ccaa;
+    border-radius: 10px;
+}
+.myheader{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.logo{
+    width: 60px;
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #383529;
+    padding-top: 18px;
+}
+.mynav{
+    background-color: #b2ccaa !important;
+    border-bottom: 1px solid #fcf5ed;
+}
+.my-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color:#646a60;
+
+}
+.my-link:hover{
+    color: #db8e36 !important;
+}
+.my-link.current{
+    color: #db8e36 !important;
+}
+.navbar-toggler-icon,.navbar-toggler{
+    display: none;
+}
+/* home  */
+.content{
+    padding: 60px 120px;
+}
+.homeimage{
+    width: 200%;
+    border-bottom: 2px solid #646a60 ;
+    height:400px;
+}
+.homeh4{
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    color:#383529;
+}
+.homep{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#646a60;
+}
+/* about */
+.aboutheader{
+    padding: 8px;
+}
+.aboutcontent{
+    padding: 0 60px 60px 60px;
+    width: 100%;
+    margin: auto;
+}
+.abouth4{
+    width: 300px;
+    font-family: "Raleway", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    color:#383529;
+}
+.aboutp{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#646a60;
+    width: 300px;
+}
+.aboutimage{
+    width: 100%;
+    border-top: 1px solid #383529;
+}
+.mynodal{
+    margin-top:60px !important;
+}
+.modal-body,.modal-header,.modal-footer{
+    background: #b2ccaa !important;
+}
+.modalimage{
+    width: 100%;
+    border-top: 1px solid #383529;
+    border-radius: 6px;
+}
+.btn{
+    background: #db8e36;
+    border: none;
+}
+.btn:hover{
+    background: #f8e37a;
+    border: none;
+    color: #db8e36;
+}
+/* SIGN UP */
+.signupcontent{
+    padding: 0 100px;
+    width: 100%;
+    margin: auto;
+}
+.signuph4{
+    width: 400px;
+    font-family: "Raleway", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    color:#383529; 
+}
+.signupp{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#646a60;
+    width: 400px;
+}
+.signupimage{
+    width:100%;
+    border-top:1px solid #383529;
+    margin-bottom: 12px;
+}
+.form-control{
+    background: #fcf5ed;
+}
+
+/* FOOTER */
+.bottomline{
+    width: 96%;
+    margin: auto;
+    height: 2px;
+    padding: 0;
+    border-top: 1px solid #fcf5ed;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background: #b2ccaa;
+    padding: 18px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.footertext{
+    font-size: 14px;
+    color: #646a60;
+    font-family:'Raleway', sans-serif; 
+    padding: 10px 0 0 20px;
+}
+.myicon1{
+    float:right;
+    padding: 2px 24px 0 0;
+    color: #646a60;
+    font-size: 16px;
+}
+.myicon2{
+    float:right;
+    padding: 2px 12px 0 0;
+    color: #646a60;
+    font-size: 16px;
+}
+.myicon1:hover,.myicon2:hover{
+    color: #db8e36;
+}
+/* BOTTOMNAV */
+.bottomnav{
+    width: 100%;
+}
+.mynavbottom{
+    background: #646a60 !important;
+    color:#db8e36 !important;
+    border-radius: 0 !important;
+}
+.mynavbottom.active{
+    background: #db8e36 !important;
+    color: #efebe7 !important;
+    border-radius: 0 !important;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:720px){
+    .content{
+        padding:60px;
+    }
+    .homeimage{
+        margin-top: 20px !important;
+    }
+    .aboutimage{
+        margin-top: 40px !important;
+    }
+    .aboutp{
+        width: 100%;
+    }
+    .signuph4{
+        width: 90%;
+    }
+    .signupp{
+        width: 90%;
+    }
+    footer{
+        margin-bottom: 40px;
+    }
+}

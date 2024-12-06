@@ -1,0 +1,28 @@
+
+.logo{
+    width: 100px;
+    
+}
+.mycontainer,.mynav{
+    background: red !important;
+}
+.nav-link{
+    color: white ;
+}
+h3{
+    text-align: center;
+}
+.container{
+    background-color: blue;
+    margin-top: 30px;
+    padding: 12px;
+}
+.orangbox{
+display: block;
+background-color: orange;
+padding: 12px;
+border: 2px solid white;
+}
+.jumbocontainer{
+    background: none;
+}
