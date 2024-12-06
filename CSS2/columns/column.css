@@ -1,0 +1,57 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+html{
+    background: #aaa;
+}
+body{
+    background: #000;
+    font-family: arial;
+}
+header{
+    background: #fbf7f7;
+}
+.subheader{
+    background: #dad2d2;
+}
+.content{
+    background: #d0c9c9;
+    display: table; /*table layouts IT MAKES CONTENT BEHAVE LIKE A TABLE*/
+}
+h1{
+    color:rgb(18, 199, 18);
+}
+h3{
+    color:rgb(35, 35, 210);
+    text-decoration: underline;
+    display:block;
+}
+h2{
+    color:#0c0a0a;
+}
+footer,.sidebartext,.contenttext{
+    color:#fff;
+}
+footer{
+    clear:both;
+    text-align: center;
+    background: #000;
+}
+
+/* COLUMNS */
+.sidebar{
+    /* float: left; */
+    display: table-cell;
+    width: 20%;
+    background:rgb(243, 243, 44);
+    padding-;
+}
+.bigbox{
+    /* float: left; */
+    display: table-cell;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:700%;
+    width: 60%;
+    background:#35d2ff;
+    padding: 18px;
+}

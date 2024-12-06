@@ -1,0 +1,15 @@
+.container{
+    background: #000;
+    width:800px;
+height: 400px;
+margin: auto;
+padding-top: 20px;
+}
+.container_child{
+    background: #ddd;
+    width:700px;
+  height: 300px;  
+  margin: auto;
+padding: 40px;
+box-sizing: border;
+}

@@ -1,0 +1,57 @@
+html{
+    background:#dbcfcf;
+
+}
+body{
+    background: #0b0a0a;
+}
+
+
+header{
+    background: #010101;
+}
+.content{
+    background: #020202;
+    margin:auto;
+    padding-left:70px;
+   
+}
+h1{
+    color: green;
+}
+h3{
+    color: blue;
+    height: 60px;
+    text-decoration: underline;
+}
+p{
+    color: #fff;
+}
+footer{
+    color:slateblue;
+    clear:both;
+    text-align: center;
+}
+
+.box1{
+    background: blue;
+    margin-bottom:20px;
+   float:left;
+
+}
+.box2{
+    background: yellow;
+    margin-bottom:20px;
+    float: left;
+    
+  
+}
+.box2 p{
+    color:blue;
+
+}
+.box3{
+    background: green;
+    margin-bottom:20px;
+    float: left;
+}

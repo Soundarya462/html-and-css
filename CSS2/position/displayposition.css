@@ -1,0 +1,56 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+}
+html{
+    background: #aaa;
+}
+body{
+    width:1000px;
+    text-align: center;
+    padding-top: 20px;
+    margin:auto;
+}
+/*NORMAL*/
+.parent
+{
+    border: 2px #000 dotted;
+    display: inline-block;
+    margin: 40px;
+}
+.child1,.child3,.child4{
+    display:inline-block;/*inline block makes it display horiz*/
+    background: red;
+    width:100px;
+    height:100px;
+}
+/* block */
+.child2_block{
+    display:inline-block;
+    background:green;
+    width:200px;
+    height:200px;
+    position: fixed;
+}
+/* relative block */
+.child2_relative{
+    display:inline-block; /*box stays relative to the parent*/
+    background:green;
+    width:200px;
+    height:200px;
+    position:relative;
+   
+    
+}
+/* absolute block */
+.child2_absolute{
+    display:inline-block;/*box ignore parent and goes where you tell it*/
+    background:green;
+    width:200px;
+    height:200px;
+    position:absolute;
+   
+
+   
+
+   
+}
